@@ -10,7 +10,9 @@
     "promise",
     "concurrency"
   ],
-  "author": "Waldemar NEto",
+  "repository": "waldemarnt/concurrent-promises",
+  "bugs": "https://github.com/waldemarnt/concurrent-promises/issues",
+  "author": "Waldemar Neto",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.0.2",
