@@ -2,7 +2,7 @@
   "name": "concurrent-promises",
   "version": "1.0.0",
   "description": "allow and manage promise concurrency",
-  "main": "index.js",
+  "main": "concurrent-promises.js",
   "scripts": {
     "test": "mocha --recursive ./test/unit --timeout 10000"
   },
