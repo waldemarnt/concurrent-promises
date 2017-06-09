@@ -7,8 +7,8 @@ Sometimes we want to limit the number of concurrent promises like in HTTP reques
 
 The example below showns how this lib works. You will need a resolver which is the function that will called recursively by concurrentPromises and the number of concurrent promises that will run (default is 8).
 
-In this case was created 10 promises that are resolved in a different time to simluate an assincronous I/O.
-To finish the conrrentPromises caller you have to return a *null*;
+In this case are created 10 promises that are resolved in a different time to simulate an assincronous I/O.
+To finish the conrrentPromises caller you should return *null*;
 
 ```javascript
     it('should limit of concurrent requests', () => {
