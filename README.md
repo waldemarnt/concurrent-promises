@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/waldemarnt/concurrent-promises.svg?branch=master)](https://travis-ci.org/waldemarnt/concurrent-promises)
 
 Sometimes we want to limit the number of concurrent promises like in HTTP requests or I/O. This library allows limit the number of concorrency.
+Different from libraries like: https://github.com/timdp/es6-promise-pool it allows retries and total control over the concurrency flow.
 
 # Example
 
