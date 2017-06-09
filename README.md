@@ -1,2 +1,2 @@
-# concurrent-promises
+# Concurrent-promises
 This package allows safe promise concurrency 
